@@ -23,11 +23,23 @@ python dimpexp.py export -t table_name -o dump.json
 python dimpexp.py import -t table_name -i dump.json
 ```
 
+プロファイルの指定
+
+```
+python dimpexp.py -p profile_name export -t table_name -o dump.json
+```
+
+サブコマンド(export, import)の前に指定する必要があります。
+
 ## Install
 
 ```
 pipenv install
 ```
+
+## Todo
+
+
 
 ## Licence
 
