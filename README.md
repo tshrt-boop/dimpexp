@@ -12,6 +12,7 @@ DynamoDBのテーブルを指定して、全データのエクスポート・イ
 
 - Python 3.8.x
 - pipenv
+  - [インストール](https://pipenv-ja.readthedocs.io/ja/translate-ja/install.html#pragmatic-installation-of-pipenv)
 
 ## Usage
 
@@ -34,6 +35,8 @@ python dimpexp.py -p profile_name export -t table_name -o dump.json
 ## Install
 
 ```
+git clone https://github.com/tshrt-boop/dimpexp.git
+cd dimpexp
 pipenv install
 ```
 
